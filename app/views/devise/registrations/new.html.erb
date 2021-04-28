@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja"> %>
+<head>
+  <meta charset="utf-8"> %>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> %>
+  <title>サインインページ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" >
+  
+
+</head>
+
+<body class="text-center">
+  <main class="form-signin">
+    <form>
+      <img class="mb-4" src="../images/bootstrap-logo.svg" alt="" width="72" height="57" loading="lazy">
+      <h1 class="h3 mb-3 fw-normal">サインインをどうぞ</h1>
+      
+      <label for="inputEmail" class="sr-only">ニックネーム</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="ニックネーム" required autofocus>
+      
+      <label for="inputEmail" class="sr-only">Emailアドレス</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Emailアドレス" required autofocus>
+      
+      <label for="inputPassword" class="sr-only">パスワード</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="パスワード" required>
+
+      <label for="inputPassword" class="sr-only">確認用パスワード</label>
+      <input type="password_confirmation" id="inputPassword" class="form-control" placeholder="確認用パスワード" required>
+      
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" value="remember-me" id="rememberCheck">
+        <label class="form-check-label float-start" for="rememberCheck">
+          状態を記憶する
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">サインイン</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
+    </form>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> %>
+  
+
+</body>
+
+</html>
